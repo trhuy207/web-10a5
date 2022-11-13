@@ -3,15 +3,10 @@ import React from 'react'
 export default function Footer() {
     return (
         <>
-            <footer className="text-center text-white" style={{backgroundColor: "#f1f1f1"}}>
-                {/* <!-- Copyright --> */}
-                <div className="text-center text-dark p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
-                    © 2020 Copyright: 
-                    <a className="text-dark" href="https://www.lop10a5.ga/">Lop10A5.ga </a>
-                    | Coded by: 
-                    <a className='text-dark' href=''> Quoc Huy</a>
+            <footer className="bg-light pb-5">
+                <div className="container text-center">
+                    <p className="font-italic text-muted mb-0">&copy; Copyrights Lop10A5.ga All rights reserved | Coded by Quoc Huy</p>
                 </div>
-                {/* <!-- Copyright --> */}
             </footer>
         </>
     )
